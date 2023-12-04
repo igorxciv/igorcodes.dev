@@ -1,17 +1,22 @@
 {
-  "name": "igorc.dev",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "js-yaml": "^4.1.0"
-  }
+	"name": "igorc.dev",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "eleventy --serve",
+		"build": "eleventy"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@11ty/eleventy": "^2.0.1",
+		"js-yaml": "^4.1.0",
+		"lightningcss": "^1.22.1"
+	},
+	"browserslist": [
+		"last 2 version",
+		"not dead"
+	]
 }

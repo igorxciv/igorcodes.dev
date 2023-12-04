@@ -1,0 +1,6 @@
+:root {
+	--color-white: 0 0% 100%;
+
+	--color-lilac: 263 52% 64%;
+	--color-focus-ring: hsl(var(--color-lilac));
+}

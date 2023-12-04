@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page">
 	<head>
 		<meta charset="UTF-8">
 		<title>{{ title }}</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="view-transition" content="same-origin">
+
+		<link rel="stylesheet" href="/styles/index.css">
+
+		<style media="(prefers-color-scheme: light)">
+        		{{ 'src/styles/light.css' | css }}
+		</style>
+		<style media="(prefers-color-scheme: dark)">
+			{{ 'src/styles/dark.css' | css }}
+		</style>
 	</head>
-	<body>
+	<body class="page__body">
 		{{ content | safe }}
 	</body>
 </html>
