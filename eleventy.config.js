@@ -42,7 +42,8 @@ module.exports = (config) => {
 
 	// Passthrough copy
 	[
-		'src/robots.txt'
+		'src/robots.txt',
+		'src/fonts',
 	].forEach((path) => config.addPassthroughCopy(path));
 
 	return {

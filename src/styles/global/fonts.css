@@ -12,19 +12,17 @@
 
 @font-face {
 	font-weight: 400;
-	font-family: 'Inter';
+	font-family: 'Wotfard';
 	font-style: normal;
 	font-display: swap;
-	src:
-		url('/fonts/inter-regular.woff2') format('woff2'),
-		url('/fonts/inter-regular.woff') format('woff');
+	src: url('/fonts/wotfard-regular-webfont.woff2') format('woff2');
 }
 
 :root {
-	--font-family-text: 'Inter', sans-serif;
+	--font-family-text: 'Wotfard', sans-serif;
 	--font-family-code: 'JetBrains Mono', monospace;
 
-	@supports (font-variation-settings: normal) {
-		--font-family-text: 'Inter Variable', sans-serif;
-	}
+	/*@supports (font-variation-settings: normal) {*/
+	/*	--font-family-text: 'Inter Variable', sans-serif;*/
+	/*}*/
 }
