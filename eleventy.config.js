@@ -2,6 +2,7 @@ const yaml = require('js-yaml');
 const lightningcss = require('lightningcss');
 const prettyData = require('pretty-data');
 const htmlMin = require('html-minifier-terser');
+const markdown = require('markdown-it')({ html: true });
 const packageJson = require('./package.json');
 
 module.exports = (config) => {
@@ -12,6 +13,14 @@ module.exports = (config) => {
 	config.addCollection('sitemap', (collection) => collection.getFilteredByGlob([
 		collections.pages
 	]));
+
+	// Markdown
+
+	config.addFilter('markdown', (value) => {
+		return markdown.render(value);
+	});
+
+	config.setLibrary('md', markdown);
 
 	// YAML
 	config.addDataExtension('yml', (contents) => yaml.load(contents));
