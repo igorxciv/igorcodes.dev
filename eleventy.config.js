@@ -3,6 +3,7 @@ const lightningcss = require('lightningcss');
 const prettyData = require('pretty-data');
 const htmlMin = require('html-minifier-terser');
 const markdown = require('markdown-it')({ html: true });
+const removeMarkdown = require('remove-markdown')
 const packageJson = require('./package.json');
 
 module.exports = (config) => {
@@ -18,6 +19,10 @@ module.exports = (config) => {
 
 	config.addFilter('markdown', (value) => {
 		return markdown.render(value);
+	});
+
+	config.addFilter('markdownRemove', (value) => {
+		return removeMarkdown(value);
 	});
 
 	config.setLibrary('md', markdown);
