@@ -1,9 +1,18 @@
 const yaml = require('js-yaml');
 const lightningcss = require('lightningcss');
+const prettyData = require('pretty-data');
 const htmlMin = require('html-minifier-terser');
 const packageJson = require('./package.json');
 
 module.exports = (config) => {
+	const collections = {
+		pages: 'src/pages/!(404)/index.njk'
+	}
+
+	config.addCollection('sitemap', (collection) => collection.getFilteredByGlob([
+		collections.pages
+	]));
+
 	// YAML
 	config.addDataExtension('yml', (contents) => yaml.load(contents));
 
@@ -54,6 +63,22 @@ module.exports = (config) => {
 	config.addFilter('css', async (path) => {
 		const { code } = await processStyles(path);
 		return code;
+	});
+
+	// XML
+
+	config.addTransform('xmlMin', (content, path) => {
+		if (path && path.endsWith('.xml')) {
+			return prettyData.pd.xmlmin(content);
+		}
+
+		return content;
+	});
+
+	// Dates
+
+	config.addFilter('dateISO', (value) => {
+		return value.toISOString().split('T')[0];
 	});
 
 	// Passthrough copy
