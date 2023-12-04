@@ -1,0 +1,20 @@
+<footer>
+	<h4>{{ footer.social.title }}</h4>
+	<ul>
+		{% for item in footer.social.list %}
+			<li>
+				<a href="{{ item.url }}" rel="me">{{- item.title | safe -}}</a>
+			</li>
+		{% endfor %}
+	</ul>
+	<h4>{{ footer.email.title }}</h4>
+	<a href="{{ footer.email.link }}">{{- footer.email.text | safe -}}</a>
+	<h4>{{ footer.credits.title }}</h4>
+	<ul>
+		{% for item in footer.credits.list %}
+			<li>
+				<a href="{{ item.url }}">{{- item.title | safe -}}</a>
+			</li>
+		{% endfor %}
+	</ul>
+</footer>

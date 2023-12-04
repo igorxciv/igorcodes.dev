@@ -8,15 +8,15 @@ social:
     - title: LinkedIn
       url: https://www.linkedin.com/in/igorxciv/
 
-  email:
-    title: Email
-    text: hi@<wbr>igorc.dev
-    link: mailto:hi@igorc.dev
+email:
+  title: Email
+  text: hi@<wbr>igorc.dev
+  link: mailto:hi@igorc.dev
 
-  credits:
-    title: Credits
-    list:
-      - title: Handcrafted by me
-        url: https://github.com/igorxciv
-      - title: Powered by Eleventy
-        url: https://www.11ty.dev/
+credits:
+  title: Credits
+  list:
+    - title: Handcrafted by me
+      url: https://github.com/igorxciv
+    - title: Powered by Eleventy
+      url: https://www.11ty.dev/
