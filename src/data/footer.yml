@@ -1,0 +1,22 @@
+social:
+  title: Links
+  list:
+    - title: Twitter
+      url: https://twitter.com/igorxciv
+    - title: Telegram
+      url: https://t.me/igorxciv
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/igorxciv/
+
+  email:
+    title: Email
+    text: hi@<wbr>igorc.dev
+    link: mailto:hi@igorc.dev
+
+  credits:
+    title: Credits
+    list:
+      - title: Handcrafted by me
+        url: https://github.com/igorxciv
+      - title: Powered by Eleventy
+        url: https://www.11ty.dev/
