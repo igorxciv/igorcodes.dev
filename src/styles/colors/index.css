@@ -1,6 +1,8 @@
 :root {
 	--color-white: 0 0% 100%;
 
-	--color-lilac: 263 52% 64%;
+	--color-cloudy: 342 20% 91%;
+	--color-navy: 227 45% 11%;
+
 	--color-focus-ring: hsl(var(--color-lilac));
 }
