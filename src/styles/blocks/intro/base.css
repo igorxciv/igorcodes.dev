@@ -19,3 +19,16 @@
 	font-family: var(--font-family-heading);
 	color: var(--color-text-primary);
 }
+
+.intro__who {
+	margin-block: 10px 0;
+	color: var(--color-primary);
+	font-size: var(--font-size-h3);
+	font-family: var(--font-family-text);
+}
+
+.intro__what {
+	margin-block: 20px 0;
+	color: var(--color-text-secondary);
+	font-family: var(--font-family-text);
+}

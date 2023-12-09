@@ -19,6 +19,12 @@
 	font-family: var(--font-family-heading);
 }
 
+.experience__period {
+	margin-block-end: -15px;
+	font-weight: 300;
+	font-size: var(--font-size-small);
+}
+
 .experience__details {
 	color: var(--color-text-secondary);
 	font-family: var(--font-family-text);

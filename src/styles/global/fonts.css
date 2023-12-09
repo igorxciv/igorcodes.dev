@@ -24,6 +24,14 @@
 	src: url('/fonts/wotfard-regular.woff2') format('woff2');
 }
 
+@font-face {
+	font-weight: 300;
+	font-family: 'Inter';
+	font-style: normal;
+	font-display: swap;
+	src: url('/fonts/inter-light.woff2') format('woff2');
+}
+
 :root {
 	--font-family-text: 'Inter', system-ui, sans-serif;
 	--font-family-heading: 'Wotfard', sans-serif;
