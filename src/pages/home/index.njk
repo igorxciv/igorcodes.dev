@@ -26,11 +26,11 @@
 							<time>{{ item.period.from | safe }}</time> - <time>{{ item.period.to | safe }}</time>
 						</div>
 						<p>{{ item.description | safe }}</p>
-						<ul>
+						<p>
 							{% for techItem in item.tech %}
-								<li>{{ techItem | safe }}</li>
+								<span>{{ techItem | safe }}</span>
 							{% endfor %}
-						</ul>
+						</p>
 					</article>
 				{% endfor %}
 			</div>
