@@ -10,9 +10,9 @@
 			<header class="caption">
 				<h2 class="caption__title">About</h2>
 			</header>
-			<div class="content content-block">
+			<div class="content content-inline content-block about__content">
 				{% for paragraph in about.paragraphs %}
-					<p class="about__details">{{ paragraph | safe }}</p>
+					{{ paragraph | markdown | safe }}
 				{% endfor %}
 			</div>
 		</section>

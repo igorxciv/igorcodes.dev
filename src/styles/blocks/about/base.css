@@ -1,7 +1,7 @@
 /* About */
 
-.about__details {
-	margin: 0;
-	color: var(--color-text-secondary);
-	font-family: var(--font-family-text);
+.about__content {
+	p {
+		color: var(--color-text-secondary);
+	}
 }
