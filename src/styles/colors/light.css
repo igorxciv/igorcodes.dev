@@ -3,9 +3,9 @@
 
 	/* TODO: update colors */
 
-	--color-back-primary: hsl(var(--color-ghost));
-	--color-back-seconday: hsl(var(--color-ghost), 0.9);
+	--color-back-primary: hsl(var(--color-white));
+	--color-back-seconday: hsl(var(--color-cloudy), 0.9);
 
-	--color-text-primary: hsl(var(--color-ebony));
-	--color-text-secondary: hsl(var(--color-ebony), 0.9);
+	--color-text-primary: hsl(var(--color-black));
+	--color-text-secondary: hsl(var(--color-gray), 0.9);
 }

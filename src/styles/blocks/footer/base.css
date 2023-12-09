@@ -1,0 +1,41 @@
+/* Footer */
+
+.footer {
+	display: grid;
+	column-gap: 20px;
+	border-block-start: solid 2px var(--color-text-primary);
+	color: var(--color-text-secondary);
+}
+
+
+.footer__section {
+	display: grid;
+}
+
+.footer__title {
+	margin: 0;
+	color: var(--color-text-primary);
+	font-weight: normal;
+	font-size: var(--font-size-h3);
+	font-family: var(--font-family-heading);
+}
+
+.footer__list {
+	display: grid;
+	row-gap: 8px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer__link {
+	justify-self: start;
+	color: var(--color-text-secondary);
+	box-decoration-break: clone;
+
+	@media (hover: hover) and (pointer: fine) {
+		&:hover {
+			color: var(--color-text-primary);
+		}
+	}
+}

@@ -1,8 +1,9 @@
 :root {
 	--color-white: 0 0% 100%;
+	--color-cloudy: 0 0% 90%;
 
-	--color-cloudy: 342 20% 91%;
-	--color-navy: 227 45% 11%;
+	--color-black: 0 0% 0%;
+	--color-gray: 0 0% 50%;
 
-	--color-focus-ring: hsl(var(--color-lilac));
+	--color-focus-ring: hsl(var(--color-white));
 }

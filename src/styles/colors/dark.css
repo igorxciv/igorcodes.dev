@@ -2,9 +2,9 @@
 	color-scheme: dark;
 
 	/* TODO: update colors */
-	--color-back-primary: hsl(var(--color-navy));
-	--color-back-secondary: hsl(var(--color-ebony), 0.9);
+	--color-back-primary: hsl(var(--color-black));
+	--color-back-secondary: hsl(var(--color-gray));
 
-	--color-text-primary: hsl(var(--color-cloudy));
-	--color-text-secondary: hsl(var(--color-ghost), 0.9);
+	--color-text-primary: hsl(var(--color-white));
+	--color-text-secondary: hsl(var(--color-cloudy), 0.9);
 }

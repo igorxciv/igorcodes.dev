@@ -1,20 +1,30 @@
-<footer>
-	<h4>{{ footer.social.title }}</h4>
-	<ul>
-		{% for item in footer.social.list %}
-			<li>
-				<a href="{{ item.url }}" rel="me">{{- item.title | safe -}}</a>
+<footer class="footer">
+	<div class="footer__section">
+		<h4 class="footer__title">{{ footer.social.title }}</h4>
+		<ul class="footer__list">
+			{% for item in footer.social.list %}
+				<li>
+					<a href="{{ item.url }}" rel="me" class="footer__link">{{- item.title | safe -}}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div class="footer__section">
+		<h4 class="footer__title">{{ footer.email.title }}</h4>
+		<ul class="footer__list">
+    		<li>
+    			<a href="{{ footer.email.link }}" class="footer__link">{{- footer.email.text | safe -}}</a>
 			</li>
-		{% endfor %}
-	</ul>
-	<h4>{{ footer.email.title }}</h4>
-	<a href="{{ footer.email.link }}">{{- footer.email.text | safe -}}</a>
-	<h4>{{ footer.credits.title }}</h4>
-	<ul>
-		{% for item in footer.credits.list %}
-			<li>
-				<a href="{{ item.url }}">{{- item.title | safe -}}</a>
-			</li>
-		{% endfor %}
-	</ul>
+    	</ul>
+	</div>
+	<div class="footer__section">
+		<h4 class="footer__title">{{ footer.credits.title }}</h4>
+		<ul class="footer__list">
+			{% for item in footer.credits.list %}
+				<li>
+					<a href="{{ item.url }}" class="footer__link">{{- item.title | safe -}}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
 </footer>
