@@ -24,3 +24,5 @@
 @import 'blocks/intro/index.css';
 @import 'blocks/footer/index.css';
 @import 'blocks/caption/index.css';
+@import 'blocks/content-block/index.css';
+@import 'blocks/content-inline/index.css';

@@ -1,0 +1,15 @@
+/* Content Block */
+
+.content-block {
+	display: grid;
+	row-gap: 20px;
+}
+
+/* Paragraphs */
+
+.content-block {
+	p {
+		margin: 0;
+		hyphens: auto;
+	}
+}
