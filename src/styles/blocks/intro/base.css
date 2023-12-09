@@ -16,4 +16,5 @@
 	font-weight: normal;
 	font-size: var(--font-size-shout);
 	font-family: var(--font-family-heading);
+	color: var(--color-text-primary);
 }

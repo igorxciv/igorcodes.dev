@@ -1,9 +1,7 @@
 :root {
 	color-scheme: dark;
 
-	/* TODO: update colors */
 	--color-back-primary: hsl(var(--color-black));
-	--color-back-secondary: hsl(var(--color-gray));
 
 	--color-text-primary: hsl(var(--color-white));
 	--color-text-secondary: hsl(var(--color-cloudy), 0.9);
