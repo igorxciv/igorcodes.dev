@@ -7,3 +7,20 @@
 	position: relative;
 	row-gap: 20px;
 }
+
+.experience__title {
+	grid-row: 2 / auto;
+	grid-column: 1 / -1;
+	margin: 0;
+	text-wrap: balance;
+	line-height: 1.25;
+	font-weight: normal;
+	font-size: var(--font-size-h3);
+	font-family: var(--font-family-heading);
+}
+
+.experience__details {
+	color: var(--color-text-secondary);
+	font-family: var(--font-family-text);
+	margin: 0;
+}
