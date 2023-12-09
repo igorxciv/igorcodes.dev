@@ -4,5 +4,5 @@
 	--color-back-primary: hsl(var(--color-black));
 
 	--color-text-primary: hsl(var(--color-white));
-	--color-text-secondary: hsl(var(--color-cloudy), 0.9);
+	--color-text-secondary: hsl(var(--color-white), 0.7);
 }
