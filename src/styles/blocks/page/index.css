@@ -9,12 +9,6 @@
 	}
 }
 
-/* Clip */
-
-.page--clip {
-	overflow: hidden;
-}
-
 /* Body */
 
 .page__body {
