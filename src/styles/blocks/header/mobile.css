@@ -1,3 +1,11 @@
 @media (width < 1024px) {
+	/* Header */
 
+	.header {
+		display: flex;
+		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+		padding-block: 16px;
+	}
 }
