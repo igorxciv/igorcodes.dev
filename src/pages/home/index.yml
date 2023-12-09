@@ -10,3 +10,66 @@ about:
       Over the years, I've transitioned into a full-stack engineer, crafting projects for Fortune 500 companies, contributing to the success stories of large product companies, and nurturing the growth of startups. My professional voyage has taken me through diverse business domains and a myriad of technologies, allowing me to lead distributed teams with a passion for innovation.
       Currently, I find myself immersed in the vibrant atmosphere of a startup called Electives, where we're shaping the future of live learning through our next-gen platform.
     - Beyond the realm of coding and development, I find solace and inspiration in various pursuits. Whether it's the harmonious strumming of a guitar, conquering the trails during a hike, capturing moments through the lens of my camera, or experimenting with flavors in the kitchen – each hobby adds its unique rhythm to the symphony of my life.
+experience:
+  items:
+    - company: Electives
+      title: Principal Engineer
+      period:
+        from: Nov 2022
+        to: Present
+      description: >-
+        Electives is a live learning platform that connects students with instructors for 1-on-1 and group classes. I'm currently working on the development of the platform's frontend and backend, as well as the implementation of the CI/CD pipeline.
+      tech:
+        - React.js
+        - Next.js
+        - Node.js
+        - TypeScript
+        - GraphQL
+        - AWS
+        - Docker
+        - Terraform
+    - company: EPAM Systems
+      title: Lead Software Engineer
+      period:
+        from: Nov 2017
+        to: Nov 2022
+      description: >-
+        EPAM Systems is a leading global provider of digital platform engineering and software development services. I was part of the team that developed a new product for a Fortune 500 company, which is a cloud-based platform for managing and monitoring the performance of IoT devices.
+      tech:
+        - React.js
+        - Angular
+        - Node.js
+        - TypeScript
+        - GraphQL
+        - AWS
+        - Docker
+        - Three.js
+    - company: Wargaming
+      title: Web Developer
+      period:
+        from: Apr 2017
+        to: Nov 2017
+      description: >-
+        Wargaming is an award-winning online game developer and publisher. I was part of the team that developed a new product for the company, which is a cloud-based platform for managing and monitoring the performance of IoT devices.
+      tech:
+        - JavaScript
+        - React.js
+        - Knockout.js
+        - Go
+    - company: EPAM Systems
+      title: Software Engineer
+      period:
+        from: Nov 2014
+        to: Apr 2017
+      description: >-
+        EPAM Systems is a leading global provider of digital platform engineering and software development services. I was part of the team that developed a new product for a Fortune 500 company, which is a cloud-based platform for managing and monitoring the performance of IoT devices.
+      tech:
+        - JavaScript
+        - React.js
+        - Knockout.js
+        - Node.js
+        - TypeScript
+        - GraphQL
+        - AWS
+        - Docker
+        - Three.js
