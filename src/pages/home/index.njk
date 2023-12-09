@@ -1,13 +1,18 @@
 <main id="main" class="main column">
 	<div class="main__gaps">
 		<div class="intro">
-			<p class="intro__hi">Hi, I'm</p>
-			<h1 class="intro__name">Igor</h1>
+			<p class="intro__hi">{{ intro.hi | safe }}</p>
+			<h1 class="intro__name">{{ intro.name | safe }}</h1>
 		</div>
 		<section class="about">
 			<header class="caption">
 				<h2 class="caption__title">About me</h2>
 			</header>
+			<div class="content content-block">
+				{% for paragraph in about.paragraphs %}
+					<p class="about__details">{{ paragraph | safe }}</p>
+				{% endfor %}
+			</div>
 		</section>
 		<section class="experience">
 			<header class="caption">

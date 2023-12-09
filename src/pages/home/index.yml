@@ -1,2 +1,12 @@
 layout: page.njk
 permalink: index.html
+intro:
+  hi: Hi, I'm
+  name: Igor
+about:
+  paragraphs:
+    - Welcome! I embarked on my journey in the tech world back in 2014, fueled by the challenge presented by my first manager to delve into frontend engineering. Little did I know that this initial step would evolve into a dynamic career that spans across the entire tech spectrum.
+    - >-
+      Over the years, I've transitioned into a full-stack engineer, crafting projects for Fortune 500 companies, contributing to the success stories of large product companies, and nurturing the growth of startups. My professional voyage has taken me through diverse business domains and a myriad of technologies, allowing me to lead distributed teams with a passion for innovation.
+      Currently, I find myself immersed in the vibrant atmosphere of a startup called Electives, where we're shaping the future of live learning through our next-gen platform.
+    - Beyond the realm of coding and development, I find solace and inspiration in various pursuits. Whether it's the harmonious strumming of a guitar, conquering the trails during a hike, capturing moments through the lens of my camera, or experimenting with flavors in the kitchen – each hobby adds its unique rhythm to the symphony of my life.
