@@ -1,0 +1,14 @@
+.caption__title {
+	display: flex;
+	margin: 0;
+	line-height: 1.1;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: var(--font-size-h1);
+	font-family: var(--font-family-heading);
+	color: var(--color-text-primary);
+}
+
+.caption__title--top {
+	font-size: var(--font-size-shout);
+}

@@ -3,5 +3,5 @@ description: The page you are looking for does not exist.
 layout: page.njk
 permalink: 404/index.html
 content: |
-  Looks like page you are looking for does not exist 😞
-  Return back [home](/) or check out my resume [here](/resume)
+  Oops! Looks like a digital gremlin stole this page. Don't worry, even the best explorers get lost sometimes. Let's return back [home](/) or check out my resume [here](/resume).
+  If you're feeling adventurous, report this issue [here](https://github.com/igorxciv/igorcodes.dev/issues/new).
