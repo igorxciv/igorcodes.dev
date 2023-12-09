@@ -1,4 +1,10 @@
-<main id="main">
-	<h1 class="caption__title caption__title--top">{{ title }}</h1>
-	<div class="content-block content-inline">{{ content | markdown | safe }}</div>
+<main id="main" class="main column">
+	<header class="caption">
+		<h1 class="caption__title caption__title--top">{{ title }}</h1>
+	</header>
+	<div class="two-columns">
+		<div class="two-columns__page">
+			<div class="content-block content-inline">{{ content | markdown | safe }}</div>
+		</div>
+	</div>
 </main>
