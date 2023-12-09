@@ -18,17 +18,17 @@
 			<header class="caption">
 				<h2 class="caption__title">Experience</h2>
 			</header>
-			<div class="content content-block">
+			<div class="content content-block experience">
 				{% for item in experience.items %}
-					<article>
+					<article class="experience__place">
 						<h3>{{ item.title | safe }} at {{ item.company | safe }}</h3>
 						<div>
 							<time>{{ item.period.from | safe }}</time> - <time>{{ item.period.to | safe }}</time>
 						</div>
 						<p>{{ item.description | safe }}</p>
-						<p>
+						<p class="tags">
 							{% for techItem in item.tech %}
-								<span>{{ techItem | safe }}</span>
+								<span class="tags__item">{{ techItem | safe }}</span>
 							{% endfor %}
 						</p>
 					</article>

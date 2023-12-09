@@ -1,0 +1,9 @@
+.experience {
+	row-gap: 40px;
+}
+
+.experience__place {
+	display: grid;
+	position: relative;
+	row-gap: 20px;
+}
