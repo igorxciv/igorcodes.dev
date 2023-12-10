@@ -1,0 +1,25 @@
+.projects {
+	display: grid;
+	row-gap: 50px;
+}
+
+.projects__item {
+	display: grid;
+	row-gap: 10px;
+}
+
+.projects__title {
+	display: flex;
+	margin: 0;
+	line-height: 1.1;
+	text-transform: capitalize;
+	font-weight: normal;
+	font-size: var(--font-size-h3);
+	font-family: var(--font-family-heading);
+	color: var(--color-text-primary);
+}
+
+.projects__description {
+	margin: 0;
+	color: var(--color-text-secondary);
+}

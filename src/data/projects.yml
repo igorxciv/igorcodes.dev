@@ -1,0 +1,22 @@
+- title: Petify
+  description: A web application that allows users to search for pets available for adoption in their area.
+  image: /images/projects/petify.png
+  url: https://petify.vercel.app/
+  stack:
+    - TypeScript
+    - React Native
+    - Expo
+    - Node.js
+    - GraphQL
+    - AWS
+    - Google Maps API
+    - GetStream
+- title: Dev Blog
+  description: A blog where I write about my experiences as a software developer.
+  url: https://dev-blog-phi.vercel.app/
+  image: /images/projects/dev-blog.png
+  stack:
+      - Next.js
+      - TypeScript
+      - GraphQL
+      - Vercel
