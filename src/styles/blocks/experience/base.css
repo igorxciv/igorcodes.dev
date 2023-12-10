@@ -30,3 +30,16 @@
 	font-family: var(--font-family-text);
 	margin: 0;
 }
+
+.experience__company-link {
+	color: var(--color-text-primary);
+	text-decoration: underline var(--color-text-secondary) solid 1px;
+	text-underline-offset: 5px;
+
+	@media (hover: hover) {
+		&:hover {
+			color: var(--color-primary);
+			text-decoration-color: var(--color-primary);
+		}
+	}
+}

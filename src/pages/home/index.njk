@@ -23,7 +23,7 @@
 			<div class="content content-block experience">
 				{% for item in experience.items %}
 					<article class="experience__place">
-						<h3 class="experience__title">{{ item.title | safe }} | {{ item.company | safe }}</h3>
+						<h3 class="experience__title">{{ item.title | safe }} · <a href="{{ item.url }}" class="experience__company-link">{{ item.company | safe }}</a></h3>
 						<div class="experience__period">
 							<time>{{ item.period.from | safe }}</time> - <time>{{ item.period.to | safe }}</time>
 						</div>

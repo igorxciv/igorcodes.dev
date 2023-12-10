@@ -15,6 +15,7 @@ about:
 experience:
   items:
     - company: Electives
+      url: https://electives.io/
       title: Principal Engineer
       period:
         from: Nov 2022
@@ -31,6 +32,7 @@ experience:
         - Docker
         - Terraform
     - company: EPAM Systems
+      url: https://www.epam.com/
       title: Lead Software Engineer
       period:
         from: Nov 2017
@@ -47,6 +49,7 @@ experience:
         - Docker
         - Three.js
     - company: Wargaming
+      url: https://www.wargaming.com/
       title: Web Developer
       period:
         from: Apr 2017
@@ -59,6 +62,7 @@ experience:
         - Knockout.js
         - Go
     - company: EPAM Systems
+      url: https://www.epam.com/
       title: Software Engineer
       period:
         from: Nov 2014
