@@ -20,5 +20,6 @@
 	&:not(:active, :focus-visible) {
 		position: absolute;
 		white-space: nowrap;
+		opacity: 0;
 	}
 }
