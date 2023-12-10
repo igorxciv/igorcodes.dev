@@ -1,0 +1,6 @@
+@media (width < 1024px) {
+
+	.projects__list {
+		row-gap: 50px;
+	}
+}

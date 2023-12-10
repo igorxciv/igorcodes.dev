@@ -41,19 +41,21 @@
 			<header class="caption">
 				<h2 class="caption__title">Projects</h2>
 			</header>
-			{% for section in projects %}
-				<article class="projects__item">
-					<h3 class="projects__title">
-						<a href="{{ section.url }}" class="link">{{ section.title }}</a>
-					</h3>
-					<p class="projects__description">{{ section.description }}</p>
-					<p class="tags">
-						{% for technology in section.stack %}
-							<span class="tags__item">{{ technology }}</span>
-						{% endfor %}
-					</p>
-				</article>
-			{% endfor %}
+			<div class="projects__list">
+				{% for section in projects %}
+					<article class="projects__item">
+						<h3 class="projects__title">
+							<a href="{{ section.url }}" class="link">{{ section.title }}</a>
+						</h3>
+						<p class="projects__description">{{ section.description }}</p>
+						<p class="tags">
+							{% for technology in section.stack %}
+								<span class="tags__item">{{ technology }}</span>
+							{% endfor %}
+						</p>
+					</article>
+				{% endfor %}
+			</div>
 		</section>
 	</div>
 </main>
