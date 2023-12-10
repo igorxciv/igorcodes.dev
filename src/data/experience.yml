@@ -1,0 +1,65 @@
+- company: Electives
+  url: https://electives.io/
+  title: Principal Engineer
+  period:
+    from: Nov 2022
+    to: Present
+  description: >-
+    Electives is a live learning platform that connects students with instructors for 1-on-1 and group classes. I'm currently working on the development of the platform's frontend and backend, as well as the implementation of the CI/CD pipeline.
+  tech:
+    - React.js
+    - Next.js
+    - Node.js
+    - TypeScript
+    - GraphQL
+    - AWS
+    - Docker
+    - Terraform
+- company: EPAM Systems
+  url: https://www.epam.com/
+  title: Lead Software Engineer
+  period:
+    from: Nov 2017
+    to: Nov 2022
+  description: >-
+    EPAM Systems is a leading global provider of digital platform engineering and software development services. I was part of the team that developed a new product for a Fortune 500 company, which is a cloud-based platform for managing and monitoring the performance of IoT devices.
+  tech:
+    - React.js
+    - Angular
+    - Node.js
+    - TypeScript
+    - GraphQL
+    - AWS
+    - Docker
+    - Three.js
+- company: Wargaming
+  url: https://www.wargaming.com/
+  title: Web Developer
+  period:
+    from: Apr 2017
+    to: Nov 2017
+  description: >-
+    Wargaming is an award-winning online game developer and publisher. I was part of the team that developed a new product for the company, which is a cloud-based platform for managing and monitoring the performance of IoT devices.
+  tech:
+    - JavaScript
+    - React.js
+    - Knockout.js
+    - Go
+- company: EPAM Systems
+  url: https://www.epam.com/
+  title: Software Engineer
+  period:
+    from: Nov 2014
+    to: Apr 2017
+  description: >-
+    EPAM Systems is a leading global provider of digital platform engineering and software development services. I was part of the team that developed a new product for a Fortune 500 company, which is a cloud-based platform for managing and monitoring the performance of IoT devices.
+  tech:
+    - JavaScript
+    - React.js
+    - Knockout.js
+    - Node.js
+    - TypeScript
+    - GraphQL
+    - AWS
+    - Docker
+    - Three.js

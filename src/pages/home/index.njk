@@ -21,7 +21,7 @@
 				<h2 class="caption__title">Experience</h2>
 			</header>
 			<div class="content content-block experience">
-				{% for item in experience.items %}
+				{% for item in experience %}
 					<article class="experience__place">
 						<h3 class="experience__title">{{ item.title | safe }} · <a href="{{ item.url }}" class="link">{{ item.company | safe }}</a></h3>
 						<div class="experience__period">
