@@ -6,5 +6,5 @@
 	--color-text-primary: hsl(var(--color-black));
 	--color-text-secondary: hsl(var(--color-gray-dark), 0.9);
 
-	--color-primary: hsl(var(--color-blue));
+	--color-primary: hsl(var(--color-dark-blue));
 }

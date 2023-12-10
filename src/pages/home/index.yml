@@ -1,7 +1,7 @@
 layout: page.njk
 permalink: index.html
 intro:
-  hi: Hi, I'm
+  hi: Hey there, I'm
   name: Igor
   who: Software Engineer
   what: I create outstanding and user-friendly digital journeys for the online world.

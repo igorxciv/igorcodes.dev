@@ -21,7 +21,7 @@
 }
 
 .intro__who {
-	margin-block: 10px 0;
+	margin-block: 0;
 	color: var(--color-primary);
 	font-size: var(--font-size-h3);
 	font-family: var(--font-family-text);

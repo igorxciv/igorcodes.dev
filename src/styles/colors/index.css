@@ -9,6 +9,7 @@
 	--color-cloudy: 0 0% 90%;
 
 	--color-blue: 203, 78%, 67%;
+	--color-dark-blue: 215, 72%, 41%;
 
 	--color-focus-ring: hsl(var(--color-blue));
 }
