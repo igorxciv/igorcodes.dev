@@ -3,4 +3,8 @@
 		grid-template-columns: repeat(2, 1fr);
 		column-gap: 50px;
 	}
+
+	.projects__item {
+		row-gap: 20px;
+	}
 }

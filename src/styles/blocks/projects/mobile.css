@@ -3,4 +3,8 @@
 	.projects__list {
 		row-gap: 50px;
 	}
+
+	.projects__item {
+		row-gap: 10px;
+	}
 }

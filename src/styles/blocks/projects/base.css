@@ -10,7 +10,6 @@
 
 .projects__item {
 	display: grid;
-	row-gap: 10px;
 }
 
 .projects__title {
