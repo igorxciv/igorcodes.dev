@@ -4,13 +4,14 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "eleventy --serve",
-		"build": "eleventy"
+		"start": "eleventy --serve --quiet",
+		"build": "rm -rf dist && eleventy"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"@11ty/eleventy": "2.0.1",
 		"html-minifier-terser": "^7.2.0",
 		"js-yaml": "^4.1.0",
 		"lightningcss": "^1.22.1",
@@ -21,8 +22,5 @@
 	"browserslist": [
 		"last 2 version",
 		"not dead"
-	],
-	"dependencies": {
-		"@11ty/eleventy": "2.0.1"
-	}
+	]
 }
