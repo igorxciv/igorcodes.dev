@@ -7,5 +7,6 @@
 		align-content: center;
 		align-items: center;
 		padding-block: 16px;
+		box-shadow: 0 2px 0 var(--color-text-primary);
 	}
 }

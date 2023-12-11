@@ -9,4 +9,11 @@
 		padding-block: 24px;
 		contain: layout;
 	}
+
+	/* Logo */
+
+	.header__logo {
+		inline-size: 40px;
+		block-size: 40px;
+	}
 }
