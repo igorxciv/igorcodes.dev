@@ -58,9 +58,9 @@
     from: Nov 2014
     to: Apr 2017
   description: >-
-    Spearheaded the end-to-end development of Single Page Applications (SPAs) using React, Angular, AngularJS, and Node.js.
-    Designed and implemented UI mockups for internal applications, enhancing user experience.
-    Additionally, I streamlined project delivery by configuring CI/CD pipelines for optimal efficiency.
+    In my role, I successfully led the development of Single Page Applications (SPAs) from inception to implementation, utilizing a versatile tech stack including React, Angular, AngularJS, and Node.js for both Backend For Frontend (BFF) and regular backend.
+    Additionally, I played a pivotal role in enhancing user experience by designing UI mockups for internal applications and seamlessly implementing them.
+    Furthermore, my contribution extended to optimizing project delivery through the configuration of robust Continuous Integration/Continuous Deployment (CI/CD) pipelines, ensuring the successful and efficient deployment of various projects.
   tech:
     - JavaScript
     - React.js
