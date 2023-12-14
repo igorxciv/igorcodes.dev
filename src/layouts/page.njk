@@ -44,14 +44,18 @@
 		<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f9fafb">
 		<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#22262a">
 
+		<meta name="title" content="{{ title }}">
+		<meta name="description" content="{{ desc | markdownRemove }}">
+		<meta name="content-language" content="en-us">
+
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="{{ title }}">
 		<meta property="og:description" content="{{ desc | markdownRemove }}">
 		<meta property="og:url" content="{{ (global.domain + page.url) }}">
 
 		<meta property="og:image" content="{{ cover }}">
-		<meta property="og:image:width" content="1200">
-		<meta property="og:image:height" content="630">
+		<meta property="og:image:width" content="600">
+		<meta property="og:image:height" content="600">
 
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="@igorxciv">
@@ -62,6 +66,8 @@
 		<style media="(prefers-color-scheme: dark)">
 			{{ 'src/styles/dark.css' | css }}
 		</style>
+
+		<script src="https://cdn.usefathom.com/script.js" data-site="AQIXEFJP" defer></script>
 	</head>
 	<body class="page__body">
 		{% include 'header.njk' %}
