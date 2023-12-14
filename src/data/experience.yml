@@ -22,7 +22,11 @@
     from: Nov 2017
     to: Nov 2022
   description: >-
-    Company description
+    As a seasoned frontend/fullstack developer, I spearheaded impactful projects for Fortune 500 companies spanning e-commerce, finance, and media domains.
+    Leading distributed teams across multiple locations, I orchestrated the entire development, release, and delivery process.
+    Notably, I crafted an immersive AR Virtual try-on experience in browsers using GLSL, WebGL, Three.js, and Tensorflow.
+    My expertise extended to Single Page Application development with Angular, React, and Node.js, fostering collaboration with product owners and business analysts to propose solutions aligned with business goals.
+    Additionally, I focused on performance, accessibility, and developer experience optimizations for projects, while ensuring seamless releases through meticulously configured CI/CD pipelines.
   tech:
     - React.js
     - Angular
@@ -39,7 +43,9 @@
     from: Apr 2017
     to: Nov 2017
   description: >-
-    Company description
+    Significantly improved code quality by initiating a testing environment, elevating unit test coverage from inception to 88% for the existing frontend codebase.
+    Beyond my team, I extended support to other departments, sharing insights and recommendations on optimal React.js utilization.
+    Furthermore, I actively contributed to the development of new features, leveraging both React and Knockout for innovative solutions.
   tech:
     - JavaScript
     - React.js
@@ -52,7 +58,9 @@
     from: Nov 2014
     to: Apr 2017
   description: >-
-    Company description
+    Spearheaded the end-to-end development of Single Page Applications (SPAs) using React, Angular, AngularJS, and Node.js.
+    Designed and implemented UI mockups for internal applications, enhancing user experience.
+    Additionally, I streamlined project delivery by configuring CI/CD pipelines for optimal efficiency.
   tech:
     - JavaScript
     - React.js
