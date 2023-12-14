@@ -5,7 +5,10 @@
     from: Nov 2022
     to: Present
   description: >-
-    Company description
+    Drove substantial business value by optimizing system performance and reducing AWS resource costs.
+    Spearheaded initiatives such as local Lambda helper implementation, UI Kit development, and code refactoring, ensuring a robust foundation for scalability and maintainability.
+    Played a key role in migrating critical packages for a 30% performance boost and championed testing culture adoption.
+    Pioneered the integration of TypeScript and prioritized accessibility considerations, contributing to a more inclusive and user-friendly product. Contributed significantly to the company's growth through strategic architectural solutions for new business domains.
   tech:
     - React.js
     - Next.js
@@ -15,6 +18,7 @@
     - AWS
     - Docker
     - Terraform
+    - jMeter
 - company: EPAM Systems
   url: https://www.epam.com/
   title: Lead Software Engineer
