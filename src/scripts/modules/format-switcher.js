@@ -1,5 +1,7 @@
 const formatSwitcher = document.querySelector('.format-switcher');
 const formatButtons = document.querySelectorAll('.format-switcher__button');
+const lyricalExperience = document.querySelectorAll('.experience__lyrical');
+const factsExperience = document.querySelectorAll('.experience__facts');
 
 function setupSwitcher() {
 	const savedFormat = getSavedFormat();
@@ -7,6 +9,7 @@ function setupSwitcher() {
 	if (savedFormat !== null) {
 		const currentButton = formatSwitcher.querySelector(`[value=${savedFormat}]`);
 		pressButton(currentButton, true);
+		setExperienceFormat(savedFormat);
 	}
 
 	formatSwitcher.addEventListener('click', (event) => {
@@ -16,8 +19,18 @@ function setupSwitcher() {
 		if (!isButton || isPressed) return;
 
 		pressButton(event.target, true);
+		setExperienceFormat(event.target.value);
 		setFormat(event.target.value);
 	})
+}
+
+
+function setupFormat() {
+	const savedFormat = getSavedFormat();
+
+	if (savedFormat === null) return;
+
+	setFormat(savedFormat);
 }
 
 function pressButton(button, press) {
@@ -25,6 +38,24 @@ function pressButton(button, press) {
 		button.setAttribute('aria-pressed', !press);
 	}
 	button.setAttribute('aria-pressed', press);
+}
+
+function setExperienceFormat(format) {
+	if (format === 'lyrically') {
+		lyricalExperience.forEach((item) => {
+			item.classList.remove('hidden');
+		});
+		factsExperience.forEach((item) => {
+			item.classList.add('hidden');
+		});
+	} else {
+		lyricalExperience.forEach((item) => {
+			item.classList.add('hidden');
+		});
+		factsExperience.forEach((item) => {
+			item.classList.remove('hidden');
+		});
+	}
 }
 
 function getSavedFormat() {
@@ -36,3 +67,4 @@ function setFormat(format) {
 }
 
 setupSwitcher();
+setupFormat();

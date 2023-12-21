@@ -9,6 +9,18 @@
     Spearheaded initiatives such as local Lambda helper implementation, UI Kit development, and code refactoring, ensuring a robust foundation for scalability and maintainability.
     Played a key role in migrating critical packages for a 30% performance boost and championed testing culture adoption.
     Pioneered the integration of TypeScript and prioritized accessibility considerations, contributing to a more inclusive and user-friendly product. Contributed significantly to the company's growth through strategic architectural solutions for new business domains.
+  facts:
+    - Significantly improved performance for membership-related pages, achieving a threefold increase in cold Lambda starts and up to a fourfold increase in hot starts.
+    - Implemented a local Lambda helper, enabling developers to run most components of the serverless stack locally (including Lambdas and DynamoDB). This initiative reduced AWS resource costs and enhanced the overall developer experience for all teams.
+    - Initiated the development of a UI Kit and Storybook, configured CI/CD for the NPM package. Subsequently, contributed to the main part of the UI Kit and integrated it into the main project, ensuring consistency in application UI/UX.
+    - Conducted extensive refactoring for the code and code structure, establishing a foundation for a maintainable and extendable codebase in key areas of the application.
+    - Successfully migrated main packages used by teams from AWS SDK v2 to v3, resulting in a notable 30% performance improvement for Lambda cold starts.
+    - Mentored and coached developers through internal talks, sharing best practices and contributing to the professional development of the team.
+    - Conducted load testing for Node.js microservices using JMeter, identified bottlenecks, and optimized these microservices, achieving performance improvements of 30-50%.
+    - Developed architectural solutions for new business domains, contributing to the project's growth and adaptability.
+    - Played a pivotal role in kickstarting our testing efforts by being the first to write and implement tests, subsequently fostering a culture of testing across the entire team.
+    - Pioneered the integration of TypeScript as a replacement for JavaScript, taking the lead in implementing this change and successfully propagating it across the entire team.
+    - Acted as a driving force in integrating accessibility considerations into the project. Conducted a comprehensive evaluation, formulated a plan, and ensured the enhancement of accessibility, promoting a more inclusive and user-friendly product.
   tech:
     - React.js
     - Next.js
@@ -31,6 +43,14 @@
     Notably, I crafted an immersive AR Virtual try-on experience in browsers using GLSL, WebGL, Three.js, and Tensorflow.
     My expertise extended to Single Page Application development with Angular, React, and Node.js, fostering collaboration with product owners and business analysts to propose solutions aligned with business goals.
     Additionally, I focused on performance, accessibility, and developer experience optimizations for projects, while ensuring seamless releases through meticulously configured CI/CD pipelines.
+  facts:
+    - Created projects for Fortune 500 companies in the e-commerce, finance, and media domains as a frontend/full-stack developer.
+    - Led distributed teams of engineers across multiple locations, driving and coordinating the development, release, and delivery processes.
+    - Developed AR Virtual try-on experiences in the browser using GLSL, WebGL, Three.js, and Tensorflow.
+    - Engaged in SPA development using Angular, React, and Node.js.
+    - Collaborated with product owners and business analysts, proposing solutions to achieve business goals.
+    - Conducted performance, accessibility, and developer experience optimizations for projects.
+    - Configured CI/CD pipelines and performed releases.
   tech:
     - React.js
     - Angular
@@ -51,6 +71,10 @@
     Significantly improved code quality by initiating a testing environment, elevating unit test coverage from inception to 88% for the existing frontend codebase.
     Beyond my team, I extended support to other departments, sharing insights and recommendations on optimal React.js utilization.
     Furthermore, I actively contributed to the development of new features, leveraging both React and Knockout for innovative solutions.
+  facts:
+    - Configured testing environment and covered existing frontend codebase with unit tests from 0% to 88%
+    - Helped other teams in the company with recommendations of React.js usage and approaches
+    - New features development via React, Knockout
   tech:
     - JavaScript
     - React.js
@@ -66,6 +90,10 @@
     In my role, I successfully led the development of Single Page Applications (SPAs) from inception to implementation, utilizing a versatile tech stack including React, Angular, AngularJS, and Node.js for both Backend For Frontend (BFF) and regular backend.
     Additionally, I played a pivotal role in enhancing user experience by designing UI mockups for internal applications and seamlessly implementing them.
     Furthermore, my contribution extended to optimizing project delivery through the configuration of robust Continuous Integration/Continuous Deployment (CI/CD) pipelines, ensuring the successful and efficient deployment of various projects.
+  facts:
+    - SPAs development from scratch using React,Angular, AngularJS, Node.js (for BFF & regular backend)
+    - Designing UI mockups for internal applications and implement them
+    - Configure CI/CD pipelines for successful projects delivery
   tech:
     - JavaScript
     - React.js

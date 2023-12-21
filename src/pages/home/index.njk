@@ -32,7 +32,12 @@
 						<div class="experience__period">
 							<time>{{ item.period.from | safe }}</time> - <time>{{ item.period.to | safe }}</time>
 						</div>
-						<p class="experience__details">{{ item.description | safe }}</p>
+						<p class="experience__lyrical">{{ item.description | safe }}</p>
+						<ul class="experience__facts hidden">
+							{% for fact in item.facts %}
+								<li class="facts-experience__item">{{ fact | safe }}</li>
+							{% endfor %}
+						</ul>
 						<p class="tags">
 							{% for techItem in item.tech %}
 								<span class="tags__item">{{ techItem | safe }}</span>

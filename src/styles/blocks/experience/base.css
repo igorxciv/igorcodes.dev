@@ -29,8 +29,20 @@
 	font-size: var(--font-size-small);
 }
 
-.experience__details {
+.experience__lyrical,
+.experience__facts {
 	color: var(--color-text-secondary);
 	font-family: var(--font-family-text);
 	margin: 0;
+}
+
+.experience__lyrical.hidden,
+.experience__facts.hidden {
+	display: none;
+}
+
+.experience__facts {
+	display: grid;
+	row-gap: 10px;
+	padding-inline-start: 20px;
 }
