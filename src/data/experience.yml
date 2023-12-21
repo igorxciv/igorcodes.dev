@@ -47,7 +47,7 @@
     - Created projects for Fortune 500 companies in the e-commerce, finance, and media domains as a frontend/full-stack developer.
     - Led distributed teams of engineers across multiple locations, driving and coordinating the development, release, and delivery processes.
     - Developed AR Virtual try-on experiences in the browser using GLSL, WebGL, Three.js, and Tensorflow.
-    - Engaged in SPA development using Angular, React, and Node.js.
+    - Developed SPA applications using Angular, React, and Node.js.
     - Collaborated with product owners and business analysts, proposing solutions to achieve business goals.
     - Conducted performance, accessibility, and developer experience optimizations for projects.
     - Configured CI/CD pipelines and performed releases.
@@ -73,7 +73,7 @@
     Furthermore, I actively contributed to the development of new features, leveraging both React and Knockout for innovative solutions.
   facts:
     - Configured testing environment and covered existing frontend codebase with unit tests from 0% to 88%
-    - Helped other teams in the company with recommendations of React.js usage and approaches
+    - Mentored other teams in the company with recommendations of React.js usage and approaches
     - New features development via React, Knockout
   tech:
     - JavaScript
