@@ -35,7 +35,7 @@
 						<p class="experience__lyrical">{{ item.description | safe }}</p>
 						<ul class="experience__facts hidden">
 							{% for fact in item.facts %}
-								<li class="facts-experience__item">{{ fact | safe }}</li>
+								<li class="facts-experience__item"><p>{{ fact | safe }}<p></li>
 							{% endfor %}
 						</ul>
 						<p class="tags">
