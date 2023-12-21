@@ -2,8 +2,7 @@
   url: https://electives.io/
   title: Principal Engineer
   period:
-    from: Nov 2022
-    to: Present
+    from: 2022-11-02
   description: >-
     Drove substantial business value by optimizing system performance and reducing AWS resource costs.
     Spearheaded initiatives such as local Lambda helper implementation, UI Kit development, and code refactoring, ensuring a robust foundation for scalability and maintainability.
@@ -35,8 +34,8 @@
   url: https://www.epam.com/
   title: Lead Software Engineer
   period:
-    from: Nov 2017
-    to: Nov 2022
+    from: 2017-11-02
+    to: 2022-11-02
   description: >-
     As a seasoned frontend/fullstack developer, I spearheaded impactful projects for Fortune 500 companies spanning e-commerce, finance, and media domains.
     Leading distributed teams across multiple locations, I orchestrated the entire development, release, and delivery process.
@@ -65,8 +64,8 @@
   url: https://www.wargaming.com/
   title: Web Developer
   period:
-    from: Apr 2017
-    to: Nov 2017
+    from: 2017-04-02
+    to: 2017-11-02
   description: >-
     Significantly improved code quality by initiating a testing environment, elevating unit test coverage from inception to 88% for the existing frontend codebase.
     Beyond my team, I extended support to other departments, sharing insights and recommendations on optimal React.js utilization.
@@ -84,8 +83,8 @@
   url: https://www.epam.com/
   title: Software Engineer
   period:
-    from: Nov 2014
-    to: Apr 2017
+    from: 2014-11-02
+    to: 2017-04-02
   description: >-
     In my role, I successfully led the development of Single Page Applications (SPAs) from inception to implementation, utilizing a versatile tech stack including React, Angular, AngularJS, and Node.js for both Backend For Frontend (BFF) and regular backend.
     Additionally, I played a pivotal role in enhancing user experience by designing UI mockups for internal applications and seamlessly implementing them.

@@ -119,6 +119,18 @@ module.exports = (config) => {
 		return value.toISOString().split('T')[0];
 	});
 
+	config.addFilter('dateShort', (value) => {
+		return value.toLocaleString('en', {
+			month: 'short',
+			year: 'numeric'
+		});
+	});
+
+	config.addFilter('yearMonth', (value) => {
+		const [{ value: month }, _, { value: year }] = Intl.DateTimeFormat('en-US', { month: 'numeric', year: 'numeric' }).formatToParts(new Date(value));
+		return `${year}-${month}`;
+	});
+
 	// Passthrough copy
 	[
 		'src/robots.txt',

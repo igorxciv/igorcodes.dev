@@ -4,4 +4,13 @@
 	p {
 		color: var(--color-text-secondary);
 	}
+
+	em,
+	i {
+		font-style: inherit;
+	}
+
+	b {
+		font-weight: inherit;
+	}
 }
