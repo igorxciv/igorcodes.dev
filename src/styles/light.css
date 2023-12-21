@@ -1,3 +1,6 @@
 /* Colors */
 
 @import 'colors/light.css';
+
+/* Blocks */
+@import 'blocks/format-switcher/light.css';

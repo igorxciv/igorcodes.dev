@@ -1,3 +1,6 @@
 /* Colors */
 
 @import 'colors/dark.css';
+
+/* Blocks */
+@import 'blocks/format-switcher/dark.css';

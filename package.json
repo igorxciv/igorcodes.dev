@@ -12,6 +12,7 @@
 	"license": "ISC",
 	"devDependencies": {
 		"@11ty/eleventy": "2.0.1",
+		"esbuild": "^0.19.10",
 		"html-minifier-terser": "^7.2.0",
 		"js-yaml": "^4.1.0",
 		"lightningcss": "^1.22.1",

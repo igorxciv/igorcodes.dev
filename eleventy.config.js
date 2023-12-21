@@ -1,4 +1,5 @@
 const yaml = require('js-yaml');
+const esbuild = require('esbuild');
 const lightningcss = require('lightningcss');
 const prettyData = require('pretty-data');
 const htmlMin = require('html-minifier-terser');
@@ -78,6 +79,29 @@ module.exports = (config) => {
 		const { code } = await processStyles(path);
 		return code;
 	});
+
+	// JavaScript
+
+	config.addTemplateFormats('js');
+
+	config.addExtension('js', {
+		outputFileExtension: 'js',
+		compile: async (content, path) => {
+			if (path !== './src/scripts/index.js') return;
+
+			return async () => {
+				const { outputFiles } = await esbuild.build({
+					target: 'es2020',
+					entryPoints: [path],
+					minify: true,
+					bundle: true,
+					write: false,
+				});
+
+				return outputFiles[0].text;
+			}
+		}
+	})
 
 	// XML
 

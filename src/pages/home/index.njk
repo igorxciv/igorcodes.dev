@@ -20,6 +20,11 @@
 			<header class="caption">
 				<h2 class="caption__title">Experience</h2>
 			</header>
+			<section class="experience__switcher format-switcher" aria-label="Experience format switcher">
+				<button class="format-switcher__button" aria-pressed="true" value="lyrically">Lyrically</button>
+				<button class="format-switcher__button" aria-pressed="false" value="facts">Facts</button>
+				<div class="format-switcher__status" />
+			</section>
 			<div class="content content-block experience">
 				{% for item in experience %}
 					<article class="experience__place">

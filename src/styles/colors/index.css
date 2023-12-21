@@ -1,11 +1,11 @@
 :root {
 	/* dark */
-	--color-black: 210, 11%, 15%;
-	--color-gray-dark: 212, 15%, 23%;
-	--color-gray: 212, 12%, 30%;
+	--color-black: 210 11% 15%;
+	--color-gray-dark: 212 15% 23%;
+	--color-gray: 212 12% 30%;
 
 	/* light */
-	--color-white: 210, 17%, 98%;
+	--color-white: 210 17% 98%;
 	--color-cloudy: 0 0% 90%;
 
 	--color-blue: 203, 78%, 67%;
