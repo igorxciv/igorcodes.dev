@@ -13,3 +13,8 @@
 
 	--color-focus-ring: hsl(var(--color-blue));
 }
+
+::selection {
+	background-color: var(--color-text-primary);
+	color: var(--color-back-primary);
+}
