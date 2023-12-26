@@ -1,5 +1,5 @@
 <main id="main" class="main column">
-	<div class="main__gaps">
+	<div class="main__gaps content">
 		<div class="intro">
 			<p class="intro__hi">{{ intro.hi | safe }}</p>
 			<h1 class="intro__name">{{ intro.name | safe }}</h1>
@@ -10,7 +10,7 @@
 			<header class="caption">
 				<h2 class="caption__title">About</h2>
 			</header>
-			<div class="content content-inline content-block about__content">
+			<div class="content-inline content-block about__content">
 				{% for paragraph in about.paragraphs %}
 					{{ paragraph | markdown | safe }}
 				{% endfor %}
@@ -25,7 +25,7 @@
 				<button class="format-switcher__button" aria-pressed="false" value="facts">Facts</button>
 				<div class="format-switcher__status" />
 			</section>
-			<div class="content content-block experience">
+			<div class="content-block experience">
 				{% for item in experience %}
 					<article class="experience__place">
 						<h3 class="experience__title">{{ item.title | safe }} · <a href="{{ item.url }}" class="link">{{ item.company | safe }}</a></h3>
