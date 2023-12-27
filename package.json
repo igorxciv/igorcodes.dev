@@ -5,7 +5,12 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "eleventy --serve --quiet",
-		"build": "rm -rf dist && eleventy"
+		"build": "rm -rf dist && eleventy",
+		"test": "npm run editorconfig && npm run html && npm run css && npm run javascript",
+		"editorconfig": "editorconfig-checker",
+		"html": "w3c-html-validator dist --ignore-config=.validator",
+		"css": "stylelint \"src/styles/**/*.css\"",
+		"javascript": "eslint src/scripts/**/*.js"
 	},
 	"keywords": [],
 	"author": "",
@@ -21,11 +26,15 @@
 	},
 	"devDependencies": {
 		"@11ty/eleventy": "2.0.1",
+		"editorconfig-checker": "5.1.2",
 		"eslint": "8.56.0",
 		"eslint-config-airbnb-base": "15.0.0",
 		"eslint-config-prettier": "9.1.0",
 		"eslint-plugin-import": "2.29.1",
-		"prettier": "3.1.1"
+		"prettier": "3.1.1",
+		"stylelint": "16.1.0",
+		"stylelint-order": "6.0.4",
+		"w3c-html-validator": "1.6.2"
 	},
 	"browserslist": [
 		"last 2 version",
