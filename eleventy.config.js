@@ -18,13 +18,9 @@ module.exports = (config) => {
 
 	// Markdown
 
-	config.addFilter('markdown', (value) => {
-		return markdown.render(value);
-	});
+	config.addFilter('markdown', (value) => markdown.render(value));
 
-	config.addFilter('markdownRemove', (value) => {
-		return removeMarkdown(value);
-	});
+	config.addFilter('markdownRemove', (value) => removeMarkdown(value));
 
 	config.setLibrary('md', markdown);
 
@@ -68,6 +64,7 @@ module.exports = (config) => {
 		compile: async (content, path) => {
 			if (!styles.includes(path)) return;
 
+      // eslint-disable-next-line consistent-return
 			return async () => {
 				const { code } = await processStyles(path);
 				return code;
@@ -89,6 +86,7 @@ module.exports = (config) => {
 		compile: async (content, path) => {
 			if (path !== './src/scripts/index.js') return;
 
+      // eslint-disable-next-line consistent-return
 			return async () => {
 				const { outputFiles } = await esbuild.build({
 					target: 'es2020',
@@ -115,16 +113,12 @@ module.exports = (config) => {
 
 	// Dates
 
-	config.addFilter('dateISO', (value) => {
-		return value.toISOString().split('T')[0];
-	});
+	config.addFilter('dateISO', (value) => value.toISOString().split('T')[0]);
 
-	config.addFilter('dateShort', (value) => {
-		return value.toLocaleString('en', {
+	config.addFilter('dateShort', (value) => value.toLocaleString('en', {
 			month: 'short',
 			year: 'numeric'
-		});
-	});
+		}));
 
 	config.addFilter('yearMonth', (value) => {
 		const [{ value: month }, _, { value: year }] = Intl.DateTimeFormat('en-US', { month: 'numeric', year: 'numeric' }).formatToParts(new Date(value));
