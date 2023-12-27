@@ -1,10 +1,10 @@
 :root {
-	color-scheme: light;
+  color-scheme: light;
 
-	--color-back-primary: hsl(var(--color-white));
+  --color-back-primary: hsl(var(--color-white));
 
-	--color-text-primary: hsl(var(--color-black));
-	--color-text-secondary: hsl(var(--color-gray-dark), 0.9);
+  --color-text-primary: hsl(var(--color-black));
+  --color-text-secondary: hsl(var(--color-gray-dark), 0.9);
 
-	--color-primary: hsl(var(--color-dark-blue));
+  --color-primary: hsl(var(--color-dark-blue));
 }

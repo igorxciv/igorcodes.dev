@@ -1,19 +1,17 @@
 @media (width >= 1024px) {
 
-	/* Header */
+  /* Header */
+  .header {
+    display: grid;
+    grid-template-columns: min-content auto;
+    column-gap: 40px;
+    padding-block: 24px;
+    contain: layout;
+  }
 
-	.header {
-		display: grid;
-		grid-template-columns: min-content auto;
-		column-gap: 40px;
-		padding-block: 24px;
-		contain: layout;
-	}
-
-	/* Logo */
-
-	.header__logo {
-		inline-size: 40px;
-		block-size: 40px;
-	}
+  /* Logo */
+  .header__logo {
+    inline-size: 40px;
+    block-size: 40px;
+  }
 }

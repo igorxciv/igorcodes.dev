@@ -1,10 +1,10 @@
 @media (width >= 1024px) {
-	.projects__list {
-		grid-template-columns: repeat(2, 1fr);
-		column-gap: 50px;
-	}
+  .projects__list {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+  }
 
-	.projects__item {
-		row-gap: 20px;
-	}
+  .projects__item {
+    row-gap: 20px;
+  }
 }

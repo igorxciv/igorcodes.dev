@@ -1,16 +1,14 @@
 @media (width >= 1024px) {
 
-	/* Two columns */
+  /* Two columns */
+  .two-columns {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 20px;
+  }
 
-	.two-columns {
-		display: grid;
-		grid-template-columns: repeat(8, 1fr);
-		column-gap: 20px;
-	}
-
-	/* Page */
-
-	.two-columns__page {
-		grid-column: 3 / span 4;
-	}
+  /* Page */
+  .two-columns__page {
+    grid-column: 3 / span 4;
+  }
 }

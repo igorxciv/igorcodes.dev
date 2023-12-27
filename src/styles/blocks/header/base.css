@@ -1,22 +1,22 @@
 /* Header */
 
 .header {
-	position: sticky;
-	top: 0;
-	z-index: 2;
-	background-color: var(--color-back-primary);
-	view-transition-name: header;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: var(--color-back-primary);
+  view-transition-name: header;
 }
 
 /* Link */
 
 .header__link {
-	display: flex;
-	padding: 5px;
-	border-radius: 50%;
-	color: var(--color-text-primary);
+  display: flex;
+  padding: 5px;
+  border-radius: 50%;
+  color: var(--color-text-primary);
 }
 
 .header__logo {
-	display: block;
+  display: block;
 }

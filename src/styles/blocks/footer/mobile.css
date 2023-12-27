@@ -1,21 +1,19 @@
 @media (width < 1024px) {
 
-	/* Footer */
+  /* Footer */
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+    padding-block: 40px;
+  }
 
-	.footer {
-		grid-template-columns: 1fr 1fr;
-		row-gap: 40px;
-		padding-block: 40px;
-	}
+  /* Section */
+  .footer__section {
+    align-content: start;
+    row-gap: 20px;
 
-	/* Section */
-
-	.footer__section {
-		align-content: start;
-		row-gap: 20px;
-
-		&:last-child {
-			grid-column: 1 / -1;
-		}
-	}
+    &:last-child {
+      grid-column: 1 / -1;
+    }
+  }
 }

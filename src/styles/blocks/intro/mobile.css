@@ -1,10 +1,10 @@
 @media (width < 1024) {
-	.intro {
-		row-gap: 20px;
-	}
+  .intro {
+    row-gap: 20px;
+  }
 
-	.intro__who {
-		line-height: 1.25;
-		font-size: var(--font-size-h2);
-	}
+  .intro__who {
+    line-height: 1.25;
+    font-size: var(--font-size-h2);
+  }
 }

@@ -1,16 +1,16 @@
 /* About */
 
 .about__content {
-	p {
-		color: var(--color-text-secondary);
-	}
+  p {
+    color: var(--color-text-secondary);
+  }
 
-	em,
-	i {
-		font-style: inherit;
-	}
+  em,
+  i {
+    font-style: inherit;
+  }
 
-	b {
-		font-weight: inherit;
-	}
+  b {
+    font-weight: inherit;
+  }
 }

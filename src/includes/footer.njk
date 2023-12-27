@@ -1,30 +1,30 @@
 <footer class="footer column">
-	<div class="footer__section">
-		<h4 class="footer__title">{{ footer.social.title }}</h4>
-		<ul class="footer__list">
-			{% for item in footer.social.list %}
-				<li>
-					<a href="{{ item.url }}" rel="me" class="footer__link">{{- item.title | safe -}}</a>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-	<div class="footer__section">
-		<h4 class="footer__title">{{ footer.email.title }}</h4>
-		<ul class="footer__list">
-    		<li>
-    			<a href="{{ footer.email.link }}" class="footer__link">{{- footer.email.text | safe -}}</a>
-			</li>
-    	</ul>
-	</div>
-	<div class="footer__section">
-		<h4 class="footer__title">{{ footer.credits.title }}</h4>
-		<ul class="footer__list">
-			{% for item in footer.credits.list %}
-				<li>
-					<a href="{{ item.url }}" class="footer__link">{{- item.title | safe -}}</a>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
+  <div class="footer__section">
+    <h4 class="footer__title">{{ footer.social.title }}</h4>
+    <ul class="footer__list">
+      {% for item in footer.social.list %}
+        <li>
+          <a href="{{ item.url }}" rel="me" class="footer__link">{{- item.title | safe -}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="footer__section">
+    <h4 class="footer__title">{{ footer.email.title }}</h4>
+    <ul class="footer__list">
+        <li>
+          <a href="{{ footer.email.link }}" class="footer__link">{{- footer.email.text | safe -}}</a>
+      </li>
+      </ul>
+  </div>
+  <div class="footer__section">
+    <h4 class="footer__title">{{ footer.credits.title }}</h4>
+    <ul class="footer__list">
+      {% for item in footer.credits.list %}
+        <li>
+          <a href="{{ item.url }}" class="footer__link">{{- item.title | safe -}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </footer>

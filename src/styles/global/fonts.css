@@ -1,43 +1,43 @@
 /* TODO: define variable font */
 
 @font-face {
-	font-weight: 100 900;
-	font-family: 'Inter Variable';
-	font-style: olique 0deg 10deg;
-	font-display: swap;
-	src: url('/fonts/inter-variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-family: 'Inter Variable';
+  font-style: olique 0deg 10deg;
+  font-display: swap;
+  src: url('/fonts/inter-variable.woff2') format('woff2');
 }
 
 @font-face {
-	font-weight: 400;
-	font-family: 'Inter';
-	font-style: normal;
-	font-display: swap;
-	src: url('/fonts/inter-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-family: 'Inter';
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/inter-regular.woff2') format('woff2');
 }
 
 @font-face {
-	font-weight: 400;
-	font-family: 'Wotfard';
-	font-style: normal;
-	font-display: swap;
-	src: url('/fonts/wotfard-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-family: 'Wotfard';
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/wotfard-regular.woff2') format('woff2');
 }
 
 @font-face {
-	font-weight: 300;
-	font-family: 'Inter';
-	font-style: normal;
-	font-display: swap;
-	src: url('/fonts/inter-light.woff2') format('woff2');
+  font-weight: 300;
+  font-family: 'Inter';
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/inter-light.woff2') format('woff2');
 }
 
 :root {
-	--font-family-text: 'Inter', system-ui, sans-serif;
-	--font-family-heading: 'Wotfard', sans-serif;
-	--font-family-code: 'JetBrains Mono', monospace;
+  --font-family-text: 'Inter', system-ui, sans-serif;
+  --font-family-heading: 'Wotfard', sans-serif;
+  --font-family-code: 'JetBrains Mono', monospace;
 
-	@supports (font-variation-settings: normal) {
-		--font-family-text: 'Inter Variable', sans-serif;
-	}
+  @supports (font-variation-settings: normal) {
+    --font-family-text: 'Inter Variable', sans-serif;
+  }
 }

@@ -1,19 +1,19 @@
 /* Page */
 
 .page {
-	background-color: var(--color-back-primary);
-	color: var(--color-text-primary);
+  background-color: var(--color-back-primary);
+  color: var(--color-text-primary);
 
-	@media (prefers-reduced-motion: no-preference) {
-		scroll-behavior: smooth;
-	}
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
 }
 
 /* Body */
 
 .page__body {
-	margin: 0;
-	line-height: 1.5;
-	font-size: var(--font-size-normal);
-	font-family: var(--font-family-text);
+  margin: 0;
+  line-height: 1.5;
+  font-size: var(--font-size-normal);
+  font-family: var(--font-family-text);
 }

@@ -1,29 +1,29 @@
 .projects {
-	display: grid;
-	row-gap: 20px;
+  display: grid;
+  row-gap: 20px;
 }
 
 .projects__list {
-	display: grid;
-	align-items: baseline;
+  display: grid;
+  align-items: baseline;
 }
 
 .projects__item {
-	display: grid;
+  display: grid;
 }
 
 .projects__title {
-	display: flex;
-	margin: 0;
-	color: var(--color-text-primary);
-	line-height: 1.1;
-	text-transform: capitalize;
-	font-weight: normal;
-	font-size: var(--font-size-h3);
-	font-family: var(--font-family-heading);
+  display: flex;
+  margin: 0;
+  color: var(--color-text-primary);
+  line-height: 1.1;
+  text-transform: capitalize;
+  font-weight: normal;
+  font-size: var(--font-size-h3);
+  font-family: var(--font-family-heading);
 }
 
 .projects__description {
-	margin: 0;
-	color: var(--color-text-secondary);
+  margin: 0;
+  color: var(--color-text-secondary);
 }

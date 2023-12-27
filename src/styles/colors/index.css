@@ -1,20 +1,20 @@
 :root {
-	/* dark */
-	--color-black: 210 11% 15%;
-	--color-gray-dark: 212 15% 23%;
-	--color-gray: 212 12% 30%;
+  /* dark */
+  --color-black: 210 11% 15%;
+  --color-gray-dark: 212 15% 23%;
+  --color-gray: 212 12% 30%;
 
-	/* light */
-	--color-white: 210 17% 98%;
-	--color-cloudy: 0 0% 90%;
+  /* light */
+  --color-white: 210 17% 98%;
+  --color-cloudy: 0 0% 90%;
 
-	--color-blue: 203, 78%, 67%;
-	--color-dark-blue: 215, 72%, 41%;
+  --color-blue: 203, 78%, 67%;
+  --color-dark-blue: 215, 72%, 41%;
 
-	--color-focus-ring: hsl(var(--color-blue));
+  --color-focus-ring: hsl(var(--color-blue));
 }
 
 ::selection {
-	background-color: var(--color-text-primary);
-	color: var(--color-back-primary);
+  background-color: var(--color-text-primary);
+  color: var(--color-back-primary);
 }

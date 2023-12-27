@@ -1,43 +1,43 @@
 /* Intro */
 
 .intro {
-	position: relative;
-	display: grid;
+  position: relative;
+  display: grid;
 }
 
 .intro__hi {
-	margin: 0;
-	color: var(--color-text-secondary);
+  margin: 0;
+  color: var(--color-text-secondary);
 }
 
 .intro__name {
-	margin: 0;
-	color: var(--color-text-primary);
-	line-height: 1.1;
-	text-transform: uppercase;
-	font-weight: normal;
-	font-size: var(--font-size-shout);
-	font-family: var(--font-family-heading);
+  margin: 0;
+  color: var(--color-text-primary);
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: var(--font-size-shout);
+  font-family: var(--font-family-heading);
 }
 
 .intro__who {
-	margin-block: 0;
-	color: var(--color-primary);
-	font-size: var(--font-size-h3);
-	font-family: var(--font-family-text);
+  margin-block: 0;
+  color: var(--color-primary);
+  font-size: var(--font-size-h3);
+  font-family: var(--font-family-text);
 
 
-	strong {
-		font-weight: inherit;
-	}
+  strong {
+    font-weight: inherit;
+  }
 }
 
 .intro__what {
-	margin-block: 20px 0;
-	color: var(--color-text-secondary);
-	font-family: var(--font-family-text);
+  margin-block: 20px 0;
+  color: var(--color-text-secondary);
+  font-family: var(--font-family-text);
 
-	em {
-		font-style: inherit;
-	}
+  em {
+    font-style: inherit;
+  }
 }

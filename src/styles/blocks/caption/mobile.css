@@ -1,10 +1,9 @@
 @media (width < 1024px) {
 
-	/* Caption */
-
-	.caption {
-		margin-block-end: 20px;
-		padding-block-start: 20px;
-		background: var(--color-back-primary);
-	}
+  /* Caption */
+  .caption {
+    margin-block-end: 20px;
+    padding-block-start: 20px;
+    background: var(--color-back-primary);
+  }
 }

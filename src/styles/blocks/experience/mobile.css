@@ -1,8 +1,7 @@
 @media (width < 1024px) {
-	/* Switcher */
-
-	.experience__switcher {
-		justify-self: center;
-		margin-block: 10px 20px;
-	}
+  /* Switcher */
+  .experience__switcher {
+    justify-self: center;
+    margin-block: 10px 20px;
+  }
 }

@@ -1,6 +1,6 @@
 /* Format */
 
 .format-switcher {
-	--format-switcher-back: hsl(var(--color-gray-dark));
-	--theme-switcher-text: hsl(var(--color-white));
+  --format-switcher-back: hsl(var(--color-gray-dark));
+  --theme-switcher-text: hsl(var(--color-white));
 }

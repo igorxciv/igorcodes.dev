@@ -16,7 +16,7 @@
   url: https://igordev.io
   image: /images/projects/dev-blog.png
   stack:
-      - Next.js
-      - TypeScript
-      - GraphQL
-      - Vercel
+    - Next.js
+    - TypeScript
+    - GraphQL
+    - Vercel

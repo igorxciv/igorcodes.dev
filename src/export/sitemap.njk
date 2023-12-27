@@ -4,12 +4,12 @@ permalink: /sitemap.xml
 <?xml version="1.0" encoding="utf-8"?>
 <urlset>
 {% for item in collections.sitemap %}
-	{% if item.url %}
-		<url>
-			<loc>{{ global.domain }}{{ item.url }}</loc>
-			<lastmod>{{ item.date | dateISO }}</lastmod>
-		</url>
-	{% endif %}
+  {% if item.url %}
+    <url>
+      <loc>{{ global.domain }}{{ item.url }}</loc>
+      <lastmod>{{ item.date | dateISO }}</lastmod>
+    </url>
+  {% endif %}
 {% endfor %}
 </urlset>
 
