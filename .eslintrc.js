@@ -26,5 +26,7 @@ module.exports = {
       'error',
       {functions: false, classes: false, variables: false},
     ],
+    'import/no-extraneous-dependencies': 'off',
+    'global-require': 'off',
   },
-}
+};
