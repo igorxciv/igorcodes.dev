@@ -10,8 +10,7 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"devDependencies": {
-		"@11ty/eleventy": "2.0.1",
+	"dependencies": {
 		"esbuild": "0.19.10",
 		"html-minifier-terser": "7.2.0",
 		"js-yaml": "4.1.0",
@@ -19,6 +18,14 @@
 		"markdown-it": "13.0.2",
 		"pretty-data": "0.40.0",
 		"remove-markdown": "0.5.0"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "2.0.1",
+		"eslint": "8.56.0",
+		"eslint-config-airbnb-base": "15.0.0",
+		"eslint-config-prettier": "9.1.0",
+		"eslint-plugin-import": "2.29.1",
+		"prettier": "3.1.1"
 	},
 	"browserslist": [
 		"last 2 version",
