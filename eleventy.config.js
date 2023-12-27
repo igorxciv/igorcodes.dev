@@ -143,7 +143,7 @@ module.exports = config => {
 
   config.addFilter('yearMonth', value => {
     const [{value: month}, _, {value: year}] = Intl.DateTimeFormat('en-US', {
-      month: 'numeric',
+      month: '2-digit',
       year: 'numeric',
     }).formatToParts(new Date(value));
     return `${year}-${month}`;

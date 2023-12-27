@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['airbnb-base', 'eslint-config-prettier'],
+  extends: ['eslint:recommended', 'eslint-config-prettier'],
   overrides: [
     {
       env: {
@@ -28,5 +28,6 @@ module.exports = {
     ],
     'import/no-extraneous-dependencies': 'off',
     'global-require': 'off',
+    'no-multiple-empty-lines': ['error', {max: 1, maxEOF: 0}],
   },
 };
