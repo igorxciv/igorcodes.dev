@@ -1,19 +1,19 @@
 /* Caption */
 
 .caption {
-	display: flex;
-	align-items: baseline;
-	padding-block-end: 20px;
-	border-block-end: 1px solid var(--color-text-primary);
+  display: flex;
+  align-items: baseline;
+  padding-block-end: 20px;
+  border-block-end: 1px solid var(--color-text-primary);
 }
 
 .caption__title {
-	display: flex;
-	margin: 0;
-	line-height: 1.1;
-	text-transform: uppercase;
-	font-weight: normal;
-	font-size: var(--font-size-h1);
-	font-family: var(--font-family-heading);
-	color: var(--color-text-primary);
+  display: flex;
+  margin: 0;
+  color: var(--color-text-primary);
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: var(--font-size-h1);
+  font-family: var(--font-family-heading);
 }

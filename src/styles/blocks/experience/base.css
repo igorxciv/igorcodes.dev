@@ -3,8 +3,8 @@
 }
 
 .experience__place {
-	display: grid;
 	position: relative;
+	display: grid;
 	row-gap: 20px;
 }
 
@@ -27,9 +27,9 @@
 
 .experience__lyrical,
 .experience__facts {
+	margin: 0;
 	color: var(--color-text-secondary);
 	font-family: var(--font-family-text);
-	margin: 0;
 }
 
 .experience__lyrical.hidden,

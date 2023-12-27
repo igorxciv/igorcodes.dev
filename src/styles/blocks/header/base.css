@@ -12,9 +12,9 @@
 
 .header__link {
 	display: flex;
+	padding: 5px;
 	border-radius: 50%;
 	color: var(--color-text-primary);
-	padding: 5px;
 }
 
 .header__logo {
