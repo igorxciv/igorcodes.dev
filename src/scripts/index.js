@@ -1,1 +1,1 @@
-import './modules/format-switcher.js';
+import './modules/format-switcher.js'
