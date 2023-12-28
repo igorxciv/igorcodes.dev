@@ -1,16 +1,16 @@
-<main id="main" class="main column">
+<main id="main" class="main column" itemscope itemtype="https://schema.org/Person">
   <div class="main__gaps">
     <div class="intro">
       <p class="intro__hi">{{ intro.hi | safe }}</p>
-      <h1 class="intro__name">{{ intro.name | safe }}</h1>
-      <p class="intro__who">{{ intro.who | safe }}</p>
-      <p class="intro__what">{{ intro.what | safe }}</p>
+      <h1 class="intro__name" itemprop="name">{{ intro.name | safe }}</h1>
+      <p class="intro__who" itemprop="jobTitle">{{ intro.who | safe }}</p>
+      <p class="intro__what" itemprop="knowsAbout">{{ intro.what | safe }}</p>
     </div>
     <section class="about">
       <header class="caption">
         <h2 class="caption__title">About</h2>
       </header>
-      <div class="content-inline content-block about__content">
+      <div class="content-inline content-block about__content" itemprop="description">
         {% for paragraph in about.paragraphs %}
           {{ paragraph | markdown | safe }}
         {% endfor %}
